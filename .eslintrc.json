@@ -1,7 +1,10 @@
 {
   "extends": ["next/core-web-vitals", "@joel-luis/eslint-config/next"],
+  "plugins": ["simple-import-sort"],
   "rules": {
     "no-unused-vars": "error",
-    "camelcase": "off"
+    "camelcase": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
   }
 }
